@@ -1,0 +1,23 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# Visualization (grayscale, publication figures)
+matplotlib>=3.7
+seaborn>=0.13
+
+# Deep learning
+torch>=2.1
+torch-geometric>=2.5
+
+# Temporal causal discovery
+tigramite>=5.2
+
+# Images
+pillow>=10.0
+
+# Utilities
+tqdm>=4.66
+jupyter>=1.0

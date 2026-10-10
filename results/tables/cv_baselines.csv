@@ -1,0 +1,21 @@
+model,fold,macro_f1,binary_f1,auc_roc
+Single-Modal MLP (EM),0,0.48,0.359,0.5847
+Early Fusion MLP,0,0.5731,0.309,0.5311
+Attention Fusion,0,0.5751,0.3117,0.5625
+Transformer Fusion,0,0.546,0.2543,0.5166
+Single-Modal MLP (EM),1,0.6753,0.5517,0.7453
+Early Fusion MLP,1,0.7167,0.5795,0.8045
+Attention Fusion,1,0.7249,0.5976,0.8104
+Transformer Fusion,1,0.7297,0.6047,0.8221
+Single-Modal MLP (EM),2,0.6524,0.5041,0.7725
+Early Fusion MLP,2,0.7074,0.5622,0.8306
+Attention Fusion,2,0.6965,0.5369,0.8118
+Transformer Fusion,2,0.7173,0.5811,0.843
+Single-Modal MLP (EM),3,0.5861,0.4809,0.7508
+Early Fusion MLP,3,0.7177,0.603,0.8874
+Attention Fusion,3,0.7349,0.6221,0.8948
+Transformer Fusion,3,0.6923,0.579,0.8786
+Single-Modal MLP (EM),4,0.4958,0.3667,0.5347
+Early Fusion MLP,4,0.6062,0.3867,0.6345
+Attention Fusion,4,0.6461,0.4551,0.6754
+Transformer Fusion,4,0.6688,0.4882,0.7082
