@@ -1,5 +1,0 @@
-comparison,mean_auc_diff,paired_t_p,wilcoxon_p
-Proposed vs Single-Modal MLP (EM),0.0318,0.2396,0.3125
-Proposed vs Early Fusion MLP,-0.0283,0.2347,0.4375
-Proposed vs Attention Fusion,-0.0416,0.0932,0.125
-Proposed vs Transformer Fusion,-0.0443,0.2229,0.3125
