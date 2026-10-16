@@ -6,8 +6,11 @@ Reproducibility package (code, data pointers, and results) for the manuscript on
 heart rate, breathing rate, stress index — together with ambient/environmental
 channels) under the guidance of **temporal causal discovery** (PCMCI).
 
-**Author:** Munil Yang, Institute for Industrial Policy Studies, Seoul, Republic of Korea.
+**Authors:** Hyunjeong Kang (Kookmin University, Seoul) and Munil Yang
+(Institute for Industrial Policy Studies, Seoul; corresponding author,
+miyang@ips.or.kr).
 **Target venue:** *Biomedical Signal Processing and Control* (Elsevier).
+**Repository:** https://github.com/miyang0628/causal-gnn-elderly-risk
 
 The study separates two questions that the sensor-fusion literature usually fuses:
 whether discovered causal structure improves **prediction**, and whether it adds
