@@ -1,8 +1,0 @@
-Variant,Macro F1,Binary F1,AUC-ROC
-"Proposed: Causal + lag, all",0.622 ± 0.066,0.422 ± 0.139,0.709 ± 0.123
-B: Causal + NO lag,0.620 ± 0.063,0.421 ± 0.137,0.706 ± 0.122
-A: Fully-connected + lag,0.597 ± 0.051,0.400 ± 0.118,0.690 ± 0.114
-A: Random graph + lag,0.600 ± 0.049,0.396 ± 0.124,0.676 ± 0.141
-A: No inter-sensor + lag,0.594 ± 0.049,0.391 ± 0.128,0.679 ± 0.123
-"C: Causal + lag, EM-only",0.568 ± 0.073,0.414 ± 0.089,0.673 ± 0.098
-"C: Causal + lag, SM-only",0.635 ± 0.073,0.423 ± 0.164,0.706 ± 0.113

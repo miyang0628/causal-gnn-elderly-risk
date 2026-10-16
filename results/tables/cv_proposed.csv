@@ -1,6 +1,0 @@
-model,fold,macro_f1,binary_f1,auc_roc
-Proposed (CausalGraph+Lag),0,0.5536,0.2376,0.576
-Proposed (CausalGraph+Lag),1,0.703,0.533,0.7251
-Proposed (CausalGraph+Lag),2,0.6742,0.5191,0.7956
-Proposed (CausalGraph+Lag),3,0.6155,0.5155,0.8562
-Proposed (CausalGraph+Lag),4,0.5641,0.3069,0.5939
