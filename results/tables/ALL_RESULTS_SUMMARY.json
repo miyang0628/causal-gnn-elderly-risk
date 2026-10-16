@@ -1,0 +1,112 @@
+{
+  "faithfulness": {
+    "frac": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "stable": [
+      0.663,
+      0.67,
+      0.696,
+      0.717,
+      0.709
+    ],
+    "random": [
+      0.663,
+      0.663,
+      0.684,
+      0.696,
+      0.709
+    ],
+    "least": [
+      0.663,
+      0.678,
+      0.68,
+      0.7,
+      0.709
+    ]
+  },
+  "leakage": {
+    "LF": {
+      "mean": 0.711,
+      "std": 0.126,
+      "dAUC_vs_LF": 0.0
+    },
+    "L1_preproc": {
+      "mean": 0.71,
+      "std": 0.12,
+      "dAUC_vs_LF": -0.001
+    },
+    "L2_graph": {
+      "mean": 0.698,
+      "std": 0.125,
+      "dAUC_vs_LF": -0.013
+    },
+    "L3_recordwise": {
+      "mean": 0.768,
+      "std": 0.009,
+      "dAUC_vs_LF": 0.057
+    },
+    "ALL": {
+      "mean": 0.765,
+      "std": 0.009,
+      "dAUC_vs_LF": 0.055
+    }
+  },
+  "personalization": {
+    "auc_global": {
+      "mean": 0.722,
+      "std": 0.121,
+      "n": 25
+    },
+    "auc_adaptive": {
+      "mean": 0.702,
+      "std": 0.107,
+      "n": 25
+    },
+    "auc_oracle": {
+      "mean": 0.692,
+      "std": 0.122,
+      "n": 25
+    }
+  },
+  "interpretability": {
+    "edge_stability": {
+      "causal_jaccard_mean": 0.7734152326781386,
+      "causal_jaccard_std": 0.04296920055195693,
+      "random_jaccard_mean": 0.4453912676350565,
+      "random_jaccard_std": 0.07961396358175335
+    },
+    "directionality": {
+      "n_pairs": 28,
+      "frac_dominance_ge_0.7": 0.0,
+      "mean_dominance": 0.5264999999999999
+    },
+    "co2_tvoc": {
+      "freq_CO2_to_TVOC": 1.0,
+      "freq_TVOC_to_CO2": 1.0
+    },
+    "attention_agreement": {
+      "auroc_attn_predicts_causal_mean": 0.5585177040170552,
+      "auroc_std": 0.05084188112267902,
+      "spearman_attn_vs_freq_mean": 0.035636935484047554
+    }
+  },
+  "base_models": {
+    "causal": {
+      "mean": 0.7094,
+      "std": 0.1228
+    },
+    "fc": {
+      "mean": 0.6901,
+      "std": 0.1138
+    },
+    "random": {
+      "mean": 0.6764,
+      "std": 0.1406
+    }
+  }
+}

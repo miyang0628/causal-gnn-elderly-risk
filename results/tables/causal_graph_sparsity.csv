@@ -1,0 +1,6 @@
+fold,n_train_hh,n_link_lag_triplets,n_directed_pairs,graph_density
+0,21,85,34,0.607
+1,20,137,43,0.768
+2,21,99,37,0.661
+3,21,91,30,0.536
+4,21,86,31,0.554

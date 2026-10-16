@@ -1,0 +1,22 @@
+{
+  "edge_stability": {
+    "causal_jaccard_mean": 0.7734152326781386,
+    "causal_jaccard_std": 0.04296920055195693,
+    "random_jaccard_mean": 0.4453912676350565,
+    "random_jaccard_std": 0.07961396358175335
+  },
+  "directionality": {
+    "n_pairs": 28,
+    "frac_dominance_ge_0.7": 0.0,
+    "mean_dominance": 0.5264999999999999
+  },
+  "co2_tvoc": {
+    "freq_CO2_to_TVOC": 1.0,
+    "freq_TVOC_to_CO2": 1.0
+  },
+  "attention_agreement": {
+    "auroc_attn_predicts_causal_mean": 0.5585177040170552,
+    "auroc_std": 0.05084188112267902,
+    "spearman_attn_vs_freq_mean": 0.035636935484047554
+  }
+}

@@ -1,0 +1,6 @@
+Model,Macro F1,Binary F1,AUC-ROC
+Single-Modal MLP (EM),0.578 ± 0.089,0.453 ± 0.086,0.678 ± 0.110
+Early Fusion MLP,0.664 ± 0.069,0.488 ± 0.132,0.738 ± 0.149
+Attention Fusion,0.675 ± 0.066,0.505 ± 0.126,0.751 ± 0.132
+Transformer Fusion,0.671 ± 0.074,0.501 ± 0.145,0.754 ± 0.147
+Proposed (Causal+Lag),0.622 ± 0.066,0.422 ± 0.139,0.709 ± 0.123
